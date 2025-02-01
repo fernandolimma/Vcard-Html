@@ -1,0 +1,21 @@
+{
+  "name": "VCard",
+  "short_name": "VCard",
+  "description":"Tenha seu próprio Cartão de Visistas Inteligente",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#C20B20",
+  "icons": [
+    {
+      "src": "/img/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icon-500x500.png",
+      "type": "image/png",
+      "sizes": "500x500"
+    }
+  ]
+}

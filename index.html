@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VCard</title>
+    <link rel="icon" href="img/icon-192x192.png" type="image/png">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://apis.google.com https://www.gstatic.com https://accounts.google.com; object-src 'none';">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#C20B20">
+    <link rel="apple-touch-icon" href="img/icon-192x192.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Conteúdo HTML -->
+        <div class="elementos">
+            <div class="pessoa">
+                <div class="img"></div>
+                <h2>Fernando Lima</h2>
+                <p>CEO Vórtice</p>
+            </div>
+
+            <!-- Adicionar o Botões Sociais -->
+            <div class="social">
+                <div class="botoes">
+                    <a href="https://www.facebook.com/fernandolimaevc" target="_blank" title="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/fernando-lima-5801a241/" target="_blank" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/fernandolimma" target="_blank" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/fernandolimaevc/" target="_blank" title="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Adicionar o Botão "Compartilhar Contato" -->
+            <div class="compartilhar-contato">
+                <button id="compartilhar-contato">
+                    <i class="fa-solid fa-address-book"></i>
+                    <p> Compartilhar </p>
+                </button>
+            </div>
+
+            <!-- Adicionar o Botão "Salvar Contato" -->
+            <div class="salvar-contato">
+                <button id="salvar-contato" aria-label="Salvar contato">
+                    <i class="fa-solid fa-address-book"></i>
+                    <p>Salvar Contato</p>
+                </button>
+            </div>
+
+            <!-- Adicionar Links de Acessos -->
+            <div class="contato">
+                <div class="secao">
+                    <div class="icone">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div class="texto">
+                        <p>Telefone</p>
+                        <a href="https://api.whatsapp.com/send?phone=5532991144887" target="_blank" title="WhatsApp">
+                            <span>(32) 9 9114-4887</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="secao">
+                    <div class="icone">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="texto">
+                        <p>E-mail</p>
+                        <a href="mailto:fernandoaslima@hotmail.com" target="_blank" title="E-mail">
+                            <span>fernandoaslima@hotmail.com</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="secao">
+                    <div class="icone">
+                        <i class="fa-solid fa-globe-americas"></i>
+                    </div>
+                    <div class="texto">
+                        <p>Site</p>
+                        <a href="https://vorticehub.com.br/" target="_blank" title="GitHub">
+                            <span>vorticehub.com.br</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="secao">
+                    <div class="icone">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="texto">
+                        <p>Endereço</p>
+                        <p>Juiz de Fora-MG</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://apis.google.com/js/api.js" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
