@@ -1,7 +1,8 @@
-manifest.json
- "start_url": "/index.html", // aponte para a pasta na produção
- "src": "/img/icon-192x192.png", // aponte para a pasta na produção
- "src": "/img/icon-500x500.png", // aponte para a pasta na produção
+Arquivo: 
+    manifest.json
+    "start_url": "/index.html", // aponte para a pasta na produção
+    "src": "/img/icon-192x192.png", // aponte para a pasta na produção
+    "src": "/img/icon-500x500.png", // aponte para a pasta na produção
 
 Configuração do Projeto no Google Cloud Console:
     Crie um Projeto no Google Cloud Console:
@@ -28,7 +29,7 @@ Configuração do Projeto no Google Cloud Console:
 
         3- Escolha o tipo de aplicativo "Aplicativo da Web".
 
-        4- Em "URIs de redirecionamento autorizados", adicione http://localhost:8000 (ou outra porta que você for usar localmente).
+        4- Em "URIs de redirecionamento autorizados", adicione https://seusite.com.br
 
         5- Clique em "Criar" e anote o ID do cliente e o Segredo do cliente.
 
